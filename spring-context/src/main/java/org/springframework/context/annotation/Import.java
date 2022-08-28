@@ -56,6 +56,9 @@ import java.lang.annotation.Target;
 public @interface Import {
 
 	/**
+	 * 1、直接写Class:Person{age=null, name='null'}利用无参构造器创建对象放到容器中
+	 * 2、ImportSelector
+	 * 3、ImportBeanDefinitionRegistrar
 	 * {@link Configuration @Configuration}, {@link ImportSelector},
 	 * {@link ImportBeanDefinitionRegistrar}, or regular component classes to import.
 	 */
